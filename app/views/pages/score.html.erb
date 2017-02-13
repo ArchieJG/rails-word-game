@@ -7,37 +7,54 @@
 
   <div class="row">
     <p>
-      Your word: <%= @your_word %>
+      <strong>
+        Your Word:
+      </strong>
+      <%= @your_word %>
     </p>
   </div>
 
   <div class="row">
     <p>
-      The Grid: <%= @grid %>
+      <strong>
+        The Grid:
+      </strong>
+      <%= @grid.join(" ") %>
     </p>
   </div>
 
   <div class="row">
     <p>
-      Time Taken: <%= @time_taken.round %> seconds
+      <strong>
+        Time Taken:
+      </strong>
+      <%= @time_taken.round %> seconds
     </p>
   </div>
 
   <div class="row">
     <p>
-      Translation: <%= @translation %>
+      <strong>
+        Translation:
+      </strong>
+      <%= @translation %>
     </p>
   </div>
 
   <div class="row">
     <p>
-      Score: <%= @score %>
+      <strong>
+        Score:
+      </strong>
+      <%= @score %>
     </p>
   </div>
 
   <div class="row">
     <p>
-      <%= @message %>
+      <strong>
+      Message:
+      </strong> <%= @message %>
     </p>
   </div>
 
